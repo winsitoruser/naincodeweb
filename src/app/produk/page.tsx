@@ -21,14 +21,11 @@ export default function ProdukPage() {
   return (
     <>
       {/* Hero */}
-      <section className="pt-32 pb-16 relative">
-        <div className="absolute inset-0 bg-grid-pattern bg-grid opacity-30" />
-        <div className="section-container section-padding relative z-10">
+      <section className="pt-32 pb-16">
+        <div className="section-container section-padding">
           <AnimateOnScroll className="text-center max-w-3xl mx-auto">
-            <span className="text-neon-400 font-mono text-sm tracking-widest uppercase">
-              Produk Kami
-            </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mt-3 mb-6 gradient-text-white">
+            <span className="section-label">Produk Kami</span>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4 mb-5 gradient-text-white">
               Produk Digital <span className="gradient-text">Siap Pakai</span>
             </h1>
             <p className="text-white/50 text-lg leading-relaxed">
@@ -85,9 +82,7 @@ export default function ProdukPage() {
       <section className="py-20">
         <div className="section-container section-padding text-center">
           <AnimateOnScroll>
-            <h2 className="text-3xl md:text-4xl font-bold gradient-text-white mb-4">
-              Tertarik dengan Produk Kami?
-            </h2>
+            <h2 className="section-title">Tertarik dengan Produk Kami?</h2>
             <p className="text-white/50 max-w-xl mx-auto mb-8">
               Hubungi kami untuk demo gratis atau diskusikan kebutuhan kustomisasi Anda.
             </p>

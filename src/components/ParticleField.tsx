@@ -108,8 +108,8 @@ export default function ParticleField({ count = 50 }: { count?: number }) {
   return (
     <canvas
       ref={canvasRef}
-      className="absolute inset-0 w-full h-full pointer-events-auto"
-      style={{ zIndex: 1 }}
+      className="absolute inset-0 w-full h-full pointer-events-none"
+      style={{ zIndex: 4 }}
     />
   );
 }

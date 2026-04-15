@@ -141,14 +141,11 @@ export default function KonsultasiPage() {
 
   return (
     <>
-      <section className="pt-32 pb-8 relative">
-        <div className="absolute inset-0 bg-grid-pattern bg-grid opacity-30" />
-        <div className="section-container section-padding relative z-10">
+      <section className="pt-32 pb-8">
+        <div className="section-container section-padding">
           <AnimateOnScroll className="text-center max-w-3xl mx-auto">
-            <span className="text-neon-400 font-mono text-sm tracking-widest uppercase">
-              Konsultasi Gratis
-            </span>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-3 mb-4 gradient-text-white">
+            <span className="section-label">Konsultasi Gratis</span>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4 mb-4 gradient-text-white">
               Ceritakan Kebutuhan <span className="gradient-text">Anda</span>
             </h1>
             <p className="text-white/50 text-lg">

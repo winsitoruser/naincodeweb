@@ -44,10 +44,8 @@ export default function ServiceDetailPage() {
   return (
     <>
       {/* Hero */}
-      <section className="pt-32 pb-16 relative overflow-hidden">
-        <div className="absolute inset-0 bg-grid-pattern bg-grid opacity-30" />
-        <div className="absolute top-1/3 right-0 w-[500px] h-[500px] bg-neon-500/5 rounded-full blur-[120px]" />
-        <div className="section-container section-padding relative z-10">
+      <section className="pt-32 pb-16">
+        <div className="section-container section-padding">
           <AnimateOnScroll>
             <Link
               href="/layanan"
@@ -102,9 +100,7 @@ export default function ServiceDetailPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-neon-500/[0.02] to-transparent" />
         <div className="section-container section-padding relative z-10">
           <AnimateOnScroll className="mb-12">
-            <span className="text-neon-400 font-mono text-sm tracking-widest uppercase">
-              Sub-Layanan
-            </span>
+            <span className="section-label">Sub-Layanan</span>
             <h2 className="text-2xl md:text-3xl font-bold gradient-text-white mt-2">
               Layanan Detail
             </h2>
@@ -152,9 +148,7 @@ export default function ServiceDetailPage() {
         <div className="section-container section-padding">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <AnimateOnScroll variant="slideRight">
-              <span className="text-neon-400 font-mono text-sm tracking-widest uppercase">
-                Keunggulan
-              </span>
+              <span className="section-label">Keunggulan</span>
               <h2 className="text-2xl md:text-3xl font-bold gradient-text-white mt-2 mb-6">
                 Mengapa Memilih Naincode untuk {service.shortTitle}?
               </h2>

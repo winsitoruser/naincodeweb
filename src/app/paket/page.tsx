@@ -98,14 +98,11 @@ const addOns = [
 export default function PaketPage() {
   return (
     <>
-      <section className="pt-32 pb-16 relative">
-        <div className="absolute inset-0 bg-grid-pattern bg-grid opacity-30" />
-        <div className="section-container section-padding relative z-10">
+      <section className="pt-32 pb-16">
+        <div className="section-container section-padding">
           <AnimateOnScroll className="text-center max-w-3xl mx-auto">
-            <span className="text-neon-400 font-mono text-sm tracking-widest uppercase">
-              Paket & Harga
-            </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mt-3 mb-6 gradient-text-white">
+            <span className="section-label">Paket & Harga</span>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4 mb-5 gradient-text-white">
               Investasi untuk <span className="gradient-text">Pertumbuhan</span> Digital
             </h1>
             <p className="text-white/50 text-lg leading-relaxed">
